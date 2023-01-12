@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body id="login">
+    <div id="login-panel">
+        <span class="rl-text"><a href="login.html" alt="login" class="link" id="active">Login</a>
+        <a href="register.html" alt="register" class="link" id="noactive">Register</a></span>
+            <form method="POST" action="loginscript.php" class="login-form">
+                <input type="text" placeholder="Login" class="input-login" size="25" name="log"><br><br>
+                <input type="password" placeholder="Password" class="input-login" size="25" name="pass"><br><br>
+                <input type="checkbox">
+                <span style="color:white;">Remember me </span>
+                <a href="forgot.html" alt="forgotpassword" id="fp">
+                &nbsp Forgot password?</a><br><br>
+                <input type="submit" value="Login" id="log-button"><br><br>
+            </form>
+    </div>
+</body>
+</html>

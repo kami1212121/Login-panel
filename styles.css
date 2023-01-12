@@ -1,0 +1,105 @@
+@media all and (min-width:768px) and (max-width:1280px)
+{
+    body
+    {
+        background-image: url(gora.JPG);
+        font-family: Arial Narrow;
+    }
+    #login-panel
+    {
+        position:absolute;
+        width:30%;
+        height:auto;
+        margin-top:100px;
+        margin-left:35%;
+        margin-right:35%;
+        border:1px solid black;
+        background-color: black;
+        border-radius:15px;
+        text-align: center;
+        box-shadow: 0 0 5px 25px black;
+        padding-top:25px;
+        padding-bottom: 25px;
+        opacity: 85%;
+    }
+    .login-form
+    {
+        text-align:center;
+        margin-top:25px;
+    }
+    .input-login
+    {
+        padding:10px;
+        background-color: black;
+        border:black;
+        color:white;
+        border-bottom:1px solid white;
+    }
+    .input-login::placeholder
+    {
+        color:white;
+    }
+    .input-login:focus
+    {
+        border:0;
+        border-top:black;
+    }
+    .rl-text
+    {
+        color: white;
+        font-size: 16pt;
+        
+    }
+    .link
+    {
+        text-decoration: none;
+        color:grey;
+    }
+    #active
+    {
+        color:white;
+    }
+    #noactive:hover
+    {
+        color:white;
+    }
+    #fp
+    {
+        text-decoration: none;
+        color:white;
+    }
+    #fp:hover
+    {
+        color:grey;
+    }
+    #log-button
+    {
+        width:30%;
+        height:auto;
+        padding:5px;
+        background:linear-gradient(to right, #FF2B2B, #FA1111 );
+        color:white;
+        cursor:pointer;
+        border-radius: 5px;
+    }
+    #log-button:hover
+    {
+        background:linear-gradient(to right, #CC2B2B, #C81111 );
+        color:#DDDDDD;
+    }
+    #logon
+    {
+        width:10%;
+        text-align: center;
+        margin:40px auto 0 auto;
+    }
+    #logout
+    {
+        text-decoration: none;
+        color:black;
+    }
+    #logout:hover
+    {
+        color:#5b5b5b;
+    }
+}

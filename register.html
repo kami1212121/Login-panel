@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="formscript.js"></script>
+</head>
+<body>
+    <div id="login-panel">
+        <span class="rl-text"><a href="login.html" alt="login" class="link" id="noactive">Login</a>
+        <a href="register.html" alt="register" class="link" id="active">Register</a></span>
+        <form method="POST" action="registerscript.php" id="register-form" class="login-form" onsubmit="return checkform()">
+            <input type="text" placeholder="Login" class="input-login" size="25" name="log" id="logg">
+            <br><br>
+            <input type="text" placeholder="Name" class="input-login" size="25" name="name" id="namee">
+            <br><br>
+            <input type="text" placeholder="Last name" class="input-login" size="25" name="lastname" id="lastt">
+            <br><br>
+            <input type="email" placeholder="Email" class="input-login" size="25" name="email" id="emaill">
+            <br><br>
+            <input type="password" id="pass" placeholder="Password" class="input-login" size="25" name="password" onkeydown="passwordcheck()">
+            <p id="password-length"></p>
+            <script src="jsregisterscript.js"></script>
+            <input type="password" placeholder="Retype password" class="input-login" size="25" name="repass" id="repasss">
+            <br><span id='passwords'></span><br>
+            <input type="checkbox">
+            <span style="color:white;">Remember me </span>
+            <a href="forgot.html" alt="forgotpassword" id="fp" >
+            <br><br>
+            <input type="submit" value="Sign in" id="log-button" onclick="">
+        </form>
+    </div>
+</body>
+</html>
